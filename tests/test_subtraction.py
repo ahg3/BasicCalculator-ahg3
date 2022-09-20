@@ -1,6 +1,7 @@
 """This is the starting test file"""
 
 
-def test_remove_meant_to_fail_must_remove():
+def test_subtract():
     """This always passes"""
-    assert False
+    difference = 2 - 2
+    assert difference == 0
